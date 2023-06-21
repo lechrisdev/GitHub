@@ -93,8 +93,6 @@
 		85F4E0312A422CB700E74DF6 = {
 			isa = PBXGroup;
 			children = (
-				85F4E03D2A422CB800E74DF6 /* GitHubApp.swift */,
-				85F4E0642A4254F000E74DF6 /* Router.swift */,
 				85F4E03C2A422CB800E74DF6 /* GitHub */,
 				85F4E03B2A422CB800E74DF6 /* Products */,
 				5AF884C9F4704664EDFF59F8 /* Pods */,
@@ -113,6 +111,8 @@
 		85F4E03C2A422CB800E74DF6 /* GitHub */ = {
 			isa = PBXGroup;
 			children = (
+				85F4E03D2A422CB800E74DF6 /* GitHubApp.swift */,
+				85F4E0642A4254F000E74DF6 /* Router.swift */,
 				85F4E0582A424CBA00E74DF6 /* Extensions */,
 				85F4E05F2A42528700E74DF6 /* DI */,
 				85F4E0532A4244D400E74DF6 /* Network */,
