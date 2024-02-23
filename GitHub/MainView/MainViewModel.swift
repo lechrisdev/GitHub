@@ -18,9 +18,12 @@ class MainViewModel: ObservableObject {
     init(repo: RepositoryProtocol, router: Router) {
         self.repo = repo
         self.router = router
-        Task {
-            users = await repo.getUsers(lastUserId: 0, firstLoad: true)
+        DispatchQueue.main.async {
+            Task {
+                self.users = await repo.getUsers(lastUserId: 0, firstLoad: true)
+            }
         }
+        
     }
     
     @MainActor
